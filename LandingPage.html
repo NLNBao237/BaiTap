@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Giới Thiệu Sản Phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+     
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .features ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .pricing table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .pricing th, .pricing td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+        }
+        .contact input, .contact textarea {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 1em;
+        }
+        .contact button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- Product Description Section -->
+<section>
+    <h2>Mô tả dịch vụ massage</h2>
+    <figure>
+        <img src="https://images2.thanhnien.vn/zoom/736_460/Uploaded/quochung.qc/2017_10_26/MH1/1_BVSM.jpg" alt="Dịch vụ" width="600" height="400">
+        <figcaption>Hình ảnh minh họa</figcaption>
+    </figure>
+    <p>Dịch vụ massage đem lại cho bạn một cảm giác thích thú, giúp bản thân thư giãn sau những thời gian học và làm việc một mỏi, sảng khoái đầu óc, giúp chúng ta minh mẫn và cả thiện sức khỏe bản thân.</p>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <h2> Hiệu quả mà nó đem lại</h2>
+    <ul>
+        <li>Hiệu quả 1: Giảm stress và lo âu.</li>
+        <li>Hiệu quả 2: Thư thỏa đầu óc giúp chúng ta minh mẫn hơn</li>
+        <li>Hiệu quả 3: Cải thiện sức khỏe bản thân</li>
+        
+    </ul>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing">
+    <h2>Bảng giá</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Gói</th>
+                <th>Giá</th>
+                <th>Tính năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cơ bản</td>
+                <td>500,000 VND</td>
+                <td>Tính năng cơ bản</td>
+            </tr>
+            <tr>
+                <td>Nâng cao</td>
+                <td>1,000,000 VND</td>
+                <td>Tất cả tính năng</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Contact Section -->
+<section class="contact">
+    <h2>Liên hệ với chúng tôi</h2>
+    <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Tên của bạn" required>
+        <input type="email" name="email" placeholder="Email của bạn" required>
+        <textarea name="message" rows="5" placeholder="Tin nhắn của bạn" required></textarea>
+        <button type="submit">Gửi</button>
+    </form>
+</section>
+
+</body>
+</html>
